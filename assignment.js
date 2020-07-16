@@ -26,7 +26,7 @@ function feetToMile(Feet) {
 if (feet < 0)
     console.log("Feet Value  should not less than 0.. Please Give a valid Value...");
 else
-    console.log(feet + " Feet = " + feetToMile(feet) + " Mile");
+    console.log(feet + " Feet = " + feetToMile(feet).toFixed(3) + " Mile");
 
 
 
