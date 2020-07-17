@@ -114,4 +114,4 @@ if (nameOfFriends.length < 1)
     console.log("Array should not empty...");
 
 else
-    console.log(tinyFriends("My Tiny Name Friend is " + nameOfFriends));
+    console.log("My Tiny Name Friend is "+tinyFriends(nameOfFriends));
